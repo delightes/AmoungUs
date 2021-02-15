@@ -3,13 +3,11 @@ package com.example.among_us;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.content.pm.ActivityInfo;
 import android.media.MediaPlayer;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -46,6 +44,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void play_onclick(View view) {
         Intent intent = new Intent(getApplicationContext(), second.class);
+        startActivity(intent);
+    }
+
+    public void howto_onclick(View view) {
+        Intent intent = new Intent(getApplicationContext(), how_to_play.class);
         startActivity(intent);
     }
 }

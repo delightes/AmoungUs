@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-
-        <activity android:name=".second"
-            android:screenOrientation="landscape"/>
-
+        <activity android:name=".how_to_play"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".second"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".MainActivity"
             android:screenOrientation="landscape">
